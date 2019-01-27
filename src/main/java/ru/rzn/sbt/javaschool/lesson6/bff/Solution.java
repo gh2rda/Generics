@@ -18,23 +18,25 @@ public class Solution {
     public static int findBestFriends(Collection<Person> persons) {
         int result = 0;
         Iterator itrOut = persons.iterator();
-        Set<TwoItems> setPairBF = null;
-        Person p1,p2;
+        ArrayList<TwoItems> listPairBF = new ArrayList<>();
+        Person p1, p2;
         TwoItems<Person> pairBF;
         if (persons.size() > 1)
             while (itrOut.hasNext()) {
                 p1 = (Person) itrOut.next();
-                Iterator itrIn = persons.iterator();
-                while (itrIn.hasNext()) {
-                    p2 = (Person) itrIn.next();
-                    if (p1.getBestFriend().equals(p2)) {
-                        pairBF =
+                if ((p1 != null) && (p1.getBestFriend() != null)) {
+                    Iterator itrIn = persons.iterator();
+                    while (itrIn.hasNext()) {
+                        p2 = (Person) itrIn.next();
+                        if ((p2 != null) && (p2.getBestFriend() != null) && (p1.getBestFriend()==p2) && (p2.getBestFriend()==p1)) {
+                            pairBF = new TwoItems<Person>(p1, p2);
+                            listPairBF.add(pairBF);
+                        }
                     }
-
                 }
-
-
             }
+        if (listPairBF != null) result = listPairBF.size() / 2;
+        else result = 0;
         return result;
     }
 }

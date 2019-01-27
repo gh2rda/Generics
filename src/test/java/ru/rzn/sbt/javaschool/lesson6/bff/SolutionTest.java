@@ -24,7 +24,7 @@ public class SolutionTest {
         personsList.add(new Person("Денисов Денис"));
 
         personsList.get(0).setBestFriend(personsList.get(1));
-        personsList.get(1).setBestFriend(personsList.get(2));
+        personsList.get(1).setBestFriend(personsList.get(0));
         personsList.get(2).setBestFriend(personsList.get(0));
         personsList.get(3).setBestFriend(personsList.get(4));
         personsList.get(5).setBestFriend(personsList.get(6));
@@ -33,6 +33,6 @@ public class SolutionTest {
         personsList.get(8).setBestFriend(personsList.get(7));
 
         int bestFriendsCount = Solution.findBestFriends(personsList);
-        assertEquals(bestFriendsCount, 2);
+        assertEquals(bestFriendsCount, 3);
     }
 }
