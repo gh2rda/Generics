@@ -10,7 +10,6 @@ public class SolutionTest {
 
     @Test
     public void getCountMap() {
-        /*
         Map<Integer, Integer> resultMap;
         CountMap<Integer> countMap1 = Solution.getCountMap();
         resultMap = countMap1.toMap();
@@ -97,6 +96,5 @@ public class SolutionTest {
         for(Map.Entry<Integer, Integer> entry: resultMap.entrySet()) {
             assertEquals(entry.getValue().intValue(), countMap1.getCount(entry.getKey()));
         }
-        */
     }
 }

@@ -15,7 +15,8 @@ public class Solution {
      *
      * 5. Раскомментируйте тест для проверки.
      */
-    public static CountMap getCountMap() {
-        return null;
+    public static <T> CountMapImpl<T> getCountMap() {
+
+        return new CountMapImpl<T>();
     }
 }

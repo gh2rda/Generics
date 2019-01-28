@@ -5,14 +5,14 @@ import java.util.Map;
 /**
  * Контейнер со счётчиком ссылок
  */
-public interface CountMap {
+public interface CountMap<T> {
     /**
      * Добавляет ссылку на элемент в контейнер. Если ссылка уже содержится в контейнере, увеличивает счётчика ссылок на
      * единицу
      * @param o ссылка на элемент
      * @throws NullPointerException, если аргумент - ссылка на null
      */
-    void add(Object o);
+    void add(T o);
 
     /**
      * Возвращает значение счётчика ссылок на элемент в контейнере
@@ -20,7 +20,7 @@ public interface CountMap {
      * @return количество ссылок на элемент в контейнере
      * @throws NullPointerException, если аргумент - ссылка на null
      */
-    int getCount(Object o);
+    int getCount(T o);
 
     /**
      * Уменьшает знчачение счётчика ссылок на элемент на единицу. Если значение счётчика упало до нуля, удаляет ссылку
@@ -30,7 +30,7 @@ public interface CountMap {
      * @return количество ссылок на элемент(до удаления)
      * @throws NullPointerException, если аргумент - ссылка на null
      */
-    int remove(Object o);
+    int remove(T o);
 
     /**
      * Возвращает количество зарегистрированных в контейнере различных ссылок на элементы
