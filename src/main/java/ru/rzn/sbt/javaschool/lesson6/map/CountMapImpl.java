@@ -51,9 +51,8 @@ public class CountMapImpl<T> implements CountMap<T> {
         try {
             if (source != null) {
                 CountMapImpl<T> items = (CountMapImpl<T>) source;
-                Iterator<Map.Entry<T, Integer>> entries = items.map.entrySet().iterator();
-                while (entries.hasNext()) {
-                    Map.Entry<T, Integer> entry = entries.next();
+
+                for(Map.Entry<T, Integer> entry: items.map.entrySet()){
                     T curentKey = entry.getKey();
                     if (map.containsKey(curentKey)) {
                         map.replace(curentKey, map.get(curentKey) + entry.getValue());
