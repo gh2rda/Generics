@@ -29,53 +29,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/map/CountMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="1425">
               <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/map/CountMapImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1200">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="280">
+              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1307#1308#0" expanded="true" />
-                <element signature="e#1350#1351#0" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1466#1467#0" expanded="true" />
-                <element signature="e#1544#1545#0" expanded="true" />
-                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="e#1441#1442#0" expanded="true" />
+                <element signature="e#1465#1466#0" expanded="true" />
+                <element signature="e#2096#2097#0" expanded="true" />
+                <element signature="e#2122#2123#0" expanded="true" />
+                <element signature="e#2191#2192#0" expanded="true" />
+                <element signature="e#2222#2223#0" expanded="true" />
                 <element signature="e#1632#1633#0" expanded="true" />
                 <element signature="e#1659#1660#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/rzn/sbt/javaschool/lesson6/map/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="975">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -83,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="11250">
               <caret line="569" column="14" selection-start-line="569" selection-start-column="14" selection-end-line="569" selection-end-column="14" />
             </state>
           </provider>
@@ -215,7 +200,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548676354386" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548680471901" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -317,24 +302,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_findBestFriends - 2019.01.27 at 22h 54m 45s.xml">
-      <configuration name="SolutionTest.findBestFriends" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_findBestFriends - 2019.01.27 at 23h 00m 57s.xml">
-      <configuration name="SolutionTest.findBestFriends" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_findBestFriends - 2019.01.27 at 23h 01m 07s.xml">
-      <configuration name="SolutionTest.findBestFriends" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_findBestFriends - 2019.01.27 at 23h 03m 02s.xml">
-      <configuration name="SolutionTest.findBestFriends" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_findBestFriends - 2019.01.27 at 23h 11m 44s.xml">
-      <configuration name="SolutionTest.findBestFriends" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_findBestFriends - 2019.01.27 at 23h 11m 53s.xml">
-      <configuration name="SolutionTest.findBestFriends" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SolutionTest_findBestFriends - 2019.01.27 at 23h 13m 32s.xml">
       <configuration name="SolutionTest.findBestFriends" configurationId="JUnit" />
     </history-entry>
@@ -347,9 +314,28 @@
     <history-entry file="SolutionTest_getCountMap - 2019.01.28 at 14h 52m 36s.xml">
       <configuration name="SolutionTest.getCountMap" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SolutionTest_getCountMap - 2019.01.28 at 15h 32m 35s.xml">
+      <configuration name="SolutionTest.getCountMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_getCountMap - 2019.01.28 at 15h 32m 38s.xml">
+      <configuration name="SolutionTest.getCountMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_getCountMap - 2019.01.28 at 15h 44m 45s.xml">
+      <configuration name="SolutionTest.getCountMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_getCountMap - 2019.01.28 at 15h 44m 48s.xml">
+      <configuration name="SolutionTest.getCountMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_getCountMap - 2019.01.28 at 15h 46m 25s.xml">
+      <configuration name="SolutionTest.getCountMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_getCountMap - 2019.01.28 at 15h 49m 36s.xml">
+      <configuration name="SolutionTest.getCountMap" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1858217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -360,8 +346,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53758544" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24733096" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37243736" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3473804" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -380,6 +366,16 @@
     </layout>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/rzn/sbt/javaschool/lesson6/map/SolutionTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="p2" />
@@ -603,27 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="569" column="14" selection-start-line="569" selection-start-column="14" selection-end-line="569" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/map/CountMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rzn/sbt/javaschool/lesson6/map/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/map/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -631,37 +606,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11250">
+          <caret line="569" column="14" selection-start-line="569" selection-start-column="14" selection-end-line="569" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/map/CountMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/map/CountMapImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="280">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1350#1351#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#2096#2097#0" expanded="true" />
+            <element signature="e#2122#2123#0" expanded="true" />
+            <element signature="e#2191#2192#0" expanded="true" />
+            <element signature="e#2222#2223#0" expanded="true" />
             <element signature="e#1632#1633#0" expanded="true" />
             <element signature="e#1659#1660#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rzn/sbt/javaschool/lesson6/map/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>

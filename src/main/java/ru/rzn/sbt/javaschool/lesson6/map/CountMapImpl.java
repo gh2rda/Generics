@@ -1,78 +1,14 @@
 package ru.rzn.sbt.javaschool.lesson6.map;
 
-import java.util.Collection;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class CountMapImpl<T> implements CountMap<T> {
-    private Map<T, Integer> map;
+    private TreeMap<T, Integer> map;
 
     public CountMapImpl() {
-        this.map = new Map<T, Integer>() {
-            @Override
-            public int size() {
-                return 0;
-            }
+        this.map = new TreeMap<>();
 
-            @Override
-            public boolean isEmpty() {
-                return false;
-            }
-
-            @Override
-            public boolean containsKey(Object key) {
-                return false;
-            }
-
-            @Override
-            public boolean containsValue(Object value) {
-                return false;
-            }
-
-            @Override
-            public Integer get(Object key) {
-                return null;
-            }
-
-            @Override
-            public Integer put(T key, Integer value) {
-                return null;
-            }
-
-            @Override
-            public Integer remove(Object key) {
-                return null;
-            }
-
-            @Override
-            public void putAll(Map<? extends T, ? extends Integer> m) {
-
-            }
-
-            @Override
-            public void clear() {
-
-            }
-
-            @Override
-            public Set<T> keySet() {
-                return null;
-            }
-
-            @Override
-            public Collection<Integer> values() {
-                return null;
-            }
-
-            @Override
-            public Set<Entry<T, Integer>> entrySet() {
-                return null;
-            }
-        };
     }
-//    public CountMapImpl(Map<T, Integer> m) {
-//        this.map = m;
-//    }
 
     @Override
     public void add(T o) {
@@ -95,21 +31,22 @@ public class CountMapImpl<T> implements CountMap<T> {
 
     @Override
     public int size() {
-        return 0;
+        return map.size();
     }
 
     @Override
     public void addAll(CountMap source) {
-
+        this.map.putAll(source.toMap());
     }
 
     @Override
-    public Map toMap() {
+    public TreeMap<T, Integer> toMap() {
         return map;
     }
 
     @Override
     public void toMap(Map destination) {
-        destination = map;
+        if (destination !=null) destination = (Map) map;
     }
+
 }
