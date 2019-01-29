@@ -73,6 +73,15 @@ public class CountMapImpl<T> implements CountMap<T> {
     @Override
     public void toMap(Map destination) throws NullPointerException {
         if (destination != null) destination = (Map) map;
+//        if (destination != null){
+//            destination.clear();
+//            destination.putAll((Map) map);}
+//            for(Map.Entry<T, Integer> entry: map.entrySet()){
+//                destination.
+//                T curentKey = entry.getKey();
+//                if (map.containsKey(curentKey)) {
+//                    map.replace(curentKey, map.get(curentKey) + entry.getValue());
+//                } else map.put(curentKey, entry.getValue());
         else throw new NullPointerException();
     }
 
