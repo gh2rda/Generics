@@ -13,16 +13,6 @@ public class MyFirstFunction implements Function<Person, CatalogEntry> {
     }
 
     @Override
-    public <V> Function<V, CatalogEntry> compose(Function<? super V, ? extends Person> before) {
-        return null;
-    }
-
-    @Override
-    public <V> Function<Person, V> andThen(Function<? super CatalogEntry, ? extends V> after) {
-        return null;
-    }
-
-    @Override
     public CatalogEntry apply(Person person) {
         String codeCity = "", city = "", region = "";
         codeCity = person.getPhoneNumber().substring(2);

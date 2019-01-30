@@ -79,26 +79,16 @@ public class Solution {
 
         if (persons != null) {
             ArrayList<CatalogEntry> catalog = new ArrayList<>();
-            for (Person p : persons) {
-                codeCity = p.getPhoneNumber().substring(2);
-                for (PhoneCode phCode : phoneCodesList) {
-                    if (codeCity.startsWith(phCode.getCode())) {
-                        codeCity = phCode.getCode();
-                        city = phCode.getCity();
-                        region = phCode.getRegion();
-                        if (phCode.getRegion().equals("Рязанская область")) {
-                            regionRyazanCount++;
-                            if (p.getProfession().equals("Пенсионер")) pensionersCount++;
-                        }
-                        if (phCode.getCity().equals("Рязань")) {
-                            cityRyazanCount++;
-                            if (p.getProfession().equals("Модельер")) hasFasionDesigners = true;
-                        }
-                    }
-                }
-                catalog.add(new CatalogEntry(p, city, region));
-            }
-        }
+
+//                        if (phCode.getRegion().equals("Рязанская область")) {
+//                            regionRyazanCount++;
+//                            if (p.getProfession().equals("Пенсионер")) pensionersCount++;
+//                        }
+//                        if (phCode.getCity().equals("Рязань")) {
+//                            cityRyazanCount++;
+//                            if (p.getProfession().equals("Модельер")) hasFasionDesigners = true;
+//                        }
+
         return new Result(regionRyazanCount, cityRyazanCount, pensionersCount, hasFasionDesigners);
     }
 }
