@@ -1,32 +1,32 @@
-//package ru.rzn.sbt.javaschool.lesson6.abonents;
-//
-//import java.util.function.Function;
-//
-//public abstract class MyFirstFunction<T, R> implements Function<T, R> {
-//    @Override
-//    public <V> Function<V, R> compose(Function<? super V, ? extends T> before) {
-//        return null;
-//    }
-//
-//    @Override
-//    public <V> Function<T, V> andThen(Function<? super R, ? extends V> after) {
-//        return null;
-//    }
-//
-//    @Override
-//    public R apply(Person p) {
-//       CatalogEntry result = new CatalogEntry();
-//
-//                public CatalogEntry(Person person, String city, String region) {
-//
-//            String codeCity = p.getPhoneNumber().substring(2, p.getPhoneNumber().length());
-//            String city = "";
-//
-//            String region = "";
-//            result = new CatalogEntry(p, city, region);
-//            return result;
-//        }
-//    }
-//
-//
-//}
+package ru.rzn.sbt.javaschool.lesson6.abonents;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.function.Function;
+
+public abstract class MyFirstFunction implements Function<Person, CatalogEntry> {
+    @Override
+    public <V> Function<V, CatalogEntry> compose(Function<? super V, ? extends Person> before) {
+        return null;
+    }
+
+    @Override
+    public <V> Function<Person, V> andThen(Function<? super CatalogEntry, ? extends V> after) {
+        return null;
+    }
+
+    @Override
+    public CatalogEntry apply(Person person) {
+        String codeCity = "", city = "", region = "";
+        codeCity = person.getPhoneNumber().substring(2);
+        for (PhoneCode phCode : phoneCodesList) {
+            if (codeCity.startsWith(phCode.getCode())) {
+                codeCity = phCode.getCode();
+                city = phCode.getCity();
+                region = phCode.getRegion();
+            }
+        }
+        return new CatalogEntry(person, city, region);
+    }
+}
