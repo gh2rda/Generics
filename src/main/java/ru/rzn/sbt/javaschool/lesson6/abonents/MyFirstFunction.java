@@ -5,7 +5,13 @@ import java.util.Collection;
 import java.util.List;
 import java.util.function.Function;
 
-public abstract class MyFirstFunction implements Function<Person, CatalogEntry> {
+public class MyFirstFunction implements Function<Person, CatalogEntry> {
+     List<PhoneCode> phoneCodesList;
+
+    public MyFirstFunction(List<PhoneCode> phoneCodesList) {
+        this.phoneCodesList = phoneCodesList;
+    }
+
     @Override
     public <V> Function<V, CatalogEntry> compose(Function<? super V, ? extends Person> before) {
         return null;

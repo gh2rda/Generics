@@ -73,11 +73,12 @@ public class Solution {
     public static Result analyze(List<Person> persons, List<PhoneCode> phoneCodesList) {
 //        Result result = new Result();
 //        Iterator itr = persons.iterator();
+
         int regionRyazanCount = 0, cityRyazanCount = 0, pensionersCount = 0;
         boolean hasFasionDesigners = false;
+
         if (persons != null) {
             ArrayList<CatalogEntry> catalog = new ArrayList<>();
-            String codeCity = "", city = "", region = "";
             for (Person p : persons) {
                 codeCity = p.getPhoneNumber().substring(2);
                 for (PhoneCode phCode : phoneCodesList) {

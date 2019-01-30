@@ -15,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5148064">
+    <splitter split-orientation="vertical" split-proportion="0.16173121">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -45,13 +45,14 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/MyFirstFunction.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+                <state relative-caret-position="-275">
+                  <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#388#389#0" expanded="true" />
                     <element signature="e#329#330#0" expanded="true" />
                     <element signature="e#356#357#0" expanded="true" />
                     <element signature="e#467#468#0" expanded="true" />
@@ -79,11 +80,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/Solution.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="72" column="80" selection-start-line="72" selection-start-column="80" selection-end-line="72" selection-end-column="80" />
+                <state relative-caret-position="29">
+                  <caret line="82" column="19" lean-forward="true" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -98,8 +99,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/Solution.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+                <state relative-caret-position="225">
+                  <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -143,15 +144,15 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/rzn/sbt/javaschool/lesson6/bff/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/map/CountMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/map/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rzn/sbt/javaschool/lesson6/map/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/map/CountMapImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/MyFirstFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/MyFirstFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/Solution.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1300" />
@@ -253,7 +254,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548770330104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548854321855" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -667,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/PhoneCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -695,6 +689,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rzn/sbt/javaschool/lesson6/abonents/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -704,10 +705,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/MyFirstFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        <state relative-caret-position="-275">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
             <element signature="e#329#330#0" expanded="true" />
             <element signature="e#356#357#0" expanded="true" />
             <element signature="e#467#468#0" expanded="true" />
@@ -716,17 +718,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rzn/sbt/javaschool/lesson6/abonents/SolutionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="200">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/rzn/sbt/javaschool/lesson6/abonents/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="29">
+          <caret line="82" column="19" lean-forward="true" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
