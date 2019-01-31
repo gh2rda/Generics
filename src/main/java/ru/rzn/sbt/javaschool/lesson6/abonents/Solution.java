@@ -71,24 +71,25 @@ import java.util.function.Predicate;
 public class Solution {
 
     public static Result analyze(List<Person> persons, List<PhoneCode> phoneCodesList) {
-//        Result result = new Result();
-//        Iterator itr = persons.iterator();
-
-        int regionRyazanCount = 0, cityRyazanCount = 0, pensionersCount = 0;
+        int regionRyazanCount = 0, cityRyazanCount = 0, pensioners = 0;
         boolean hasFasionDesigners = false;
 
         if (persons != null) {
-            ArrayList<CatalogEntry> catalog = new ArrayList<>();
+            Collection<CatalogEntry> catalog,regionRyazanCatalog,cityRyazanCatalog;
 
-//                        if (phCode.getRegion().equals("Рязанская область")) {
-//                            regionRyazanCount++;
-//                            if (p.getProfession().equals("Пенсионер")) pensionersCount++;
-//                        }
-//                        if (phCode.getCity().equals("Рязань")) {
-//                            cityRyazanCount++;
-//                            if (p.getProfession().equals("Модельер")) hasFasionDesigners = true;
-//                        }
+            CreateCatalogFunction createCatalogFunction = new CreateCatalogFunction(phoneCodesList);
+            catalog = Utils.transform(persons, createCatalogFunction);
 
-        return new Result(regionRyazanCount, cityRyazanCount, pensionersCount, hasFasionDesigners);
+            regionRyazanCatalog = Utils.filter(catalog,new RznOblPredicate());
+            regionRyazanCount = regionRyazanCatalog.size();
+
+            pensioners = Utils.count(regionRyazanCatalog,new AgePensionerPredicate());
+
+            cityRyazanCatalog = Utils.filter(regionRyazanCatalog,new RznCytiPredicate());
+            cityRyazanCount = cityRyazanCatalog.size();
+
+            hasFasionDesigners = Utils.contains(cityRyazanCatalog,new ModelerPredicate());
+        }
+        return new Result(regionRyazanCount, cityRyazanCount, pensioners, hasFasionDesigners);
     }
 }

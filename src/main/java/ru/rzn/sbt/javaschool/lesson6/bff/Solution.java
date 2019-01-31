@@ -17,17 +17,17 @@ public class Solution {
      */
     public static int findBestFriends(Collection<Person> persons) {
         int result = 0;
-        Iterator itrOut = persons.iterator();
+        Iterator<Person> itrOut = persons.iterator();
         ArrayList<TwoItems> listPairBF = new ArrayList<>();
         Person p1, p2;
         TwoItems<Person> pairBF;
         if (persons.size() > 1)
             while (itrOut.hasNext()) {
-                p1 = (Person) itrOut.next();
+                p1 = itrOut.next();
                 if ((p1 != null) && (p1.getBestFriend() != null)) {
-                    Iterator itrIn = persons.iterator();
+                    Iterator<Person> itrIn = persons.iterator();
                     while (itrIn.hasNext()) {
-                        p2 = (Person) itrIn.next();
+                        p2 = itrIn.next();
                         if ((p2 != null) && (p2.getBestFriend() != null) && (p1.getBestFriend()==p2) && (p2.getBestFriend()==p1)) {
                             pairBF = new TwoItems<Person>(p1, p2);
                             listPairBF.add(pairBF);

@@ -74,7 +74,7 @@ public class SolutionTest {
         for(Map.Entry<Integer, Integer> entry: resultMap.entrySet()) {
             assertEquals(entry.getValue().intValue(), countMap1.getCount(entry.getKey()));
         }
-//        resultMap.clear();
+        resultMap.clear();
 
         CountMap countMap2 = Solution.getCountMap();
         countMap2.add(12);
@@ -85,9 +85,7 @@ public class SolutionTest {
         countMap2.add(3);
 
         countMap1.addAll(countMap2);
-//        countMap1.toMap(resultMap);
-//  добавлена строка
-        resultMap = countMap1.toMap();
+        countMap1.toMap(resultMap);
 
         assertEquals(resultMap.size(), 6);
         assertEquals(resultMap.get(3).intValue(), 1);

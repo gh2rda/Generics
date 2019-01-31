@@ -5,10 +5,10 @@ import java.util.Collection;
 import java.util.List;
 import java.util.function.Function;
 
-public class MyFirstFunction implements Function<Person, CatalogEntry> {
+public class CreateCatalogFunction implements Function<Person, CatalogEntry> {
      List<PhoneCode> phoneCodesList;
 
-    public MyFirstFunction(List<PhoneCode> phoneCodesList) {
+    public CreateCatalogFunction(List<PhoneCode> phoneCodesList) {
         this.phoneCodesList = phoneCodesList;
     }
 
